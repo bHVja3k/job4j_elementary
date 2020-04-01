@@ -23,7 +23,7 @@ public class FindLoopTest {
         int[] input = new int[]{5, 10, 3};
         int value = 5;
         int result = find.indexOf(input, value);
-        int expect = 2;
+        int expect = 1;
         assertThat(result, is(expect));
     }
 }
