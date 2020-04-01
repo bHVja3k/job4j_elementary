@@ -7,8 +7,8 @@ public class FitTest {
 
     @Test
     public void manWeight() {
-        double in = 100;
-        double expected = 0;
+        double in = 180;
+        double expected = 92;
         double out = Fit.manWeight(in);
         Assert.assertEquals(expected, out, 0.01);
 
@@ -16,8 +16,8 @@ public class FitTest {
 
     @Test
     public void womanWeight() {
-        double in = 110;
-        double expected = 0;
+        double in = 160;
+        double expected = 57.5;
         double out = Fit.womanWeight(in);
         Assert.assertEquals(expected, out, 0.01);
 
