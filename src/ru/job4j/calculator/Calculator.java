@@ -2,6 +2,14 @@ package ru.job4j.calculator;
 
 public class Calculator {
 
+    /**
+     * Calculate.
+     *
+     * @author Maxim Matskevich
+     * @version $Id$
+     * @since 0.1
+     */
+
     public static void plus(int first, int second) {
         int result = first + second;
         System.out.println(result);
