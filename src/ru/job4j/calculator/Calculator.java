@@ -9,6 +9,14 @@ package ru.job4j.calculator;
  */
 
 public class Calculator {
+
+    /**
+     * Сложение.
+     *
+     * @param first  первое слагаемое.
+     * @param second второе слагаемое.
+     */
+
     public static void plus(int first, int second) {
         int result = first + second;
         System.out.println(result);
