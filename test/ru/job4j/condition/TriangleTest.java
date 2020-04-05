@@ -18,4 +18,22 @@ public class TriangleTest {
         boolean result = Triangle.exist(1.0, 2.0, 3.0);
         assertThat(result, is(false));
     }
+
+    @Test
+    public void whenPeriod() {
+        double result = Triangle.period(1.0, 2.0, 3.0);
+        assertThat(result, is(3.0));
+    }
+
+    @Test
+    public void whenPeriodFalse() {
+        double result = Triangle.period(3.0, 3.0, 3.0);
+        assertThat(result, is(4.5));
+    }
+
+    @Test
+    public void whenAreaTrue() {
+        double result = Triangle.area(3.0, 3.0, 3.0);
+        assertThat(result, is(4.5));
+    }
 }
