@@ -30,10 +30,4 @@ public class TriangleTest {
         double result = Triangle.period(3.0, 3.0, 3.0);
         assertThat(result, is(4.5));
     }
-
-    @Test
-    public void whenAreaTrue() {
-        double result = Triangle.area(3.0, 3.0, 3.0);
-        assertThat(result, is(4.5));
-    }
 }
