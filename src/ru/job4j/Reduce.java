@@ -1,5 +1,7 @@
 package ru.job4j;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Reduce {
     private int[] array;
 
@@ -20,3 +22,4 @@ public class Reduce {
         reduce.print();
     }
 }
+
